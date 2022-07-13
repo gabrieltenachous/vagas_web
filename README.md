@@ -1,61 +1,64 @@
-<p align="center"><a href="https://einov.com" target="_blank"><img src="https://einov.com/wp-content/uploads/2020/09/e-inov-logo.svg" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Sobre o desafio
+## About Laravel
 
-Prezado candidato(a), muito obrigado por participar deste processo seletivo e aceitar fazer o teste. Podemos garantir que sua entrega será analisada e te retornaremos sobre o resultado do teste.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Antes de iniciar, gostaríamos de ressaltar que acreditamos que na área de desenvolvimento de software há várias maneiras de desenvolver uma solução, a ideia aqui não é dizer que essa é a certa e aquela é a errada pois acreditamos que tudo na vida passa por um período de aprendizado e amadurecimento.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Informamos que sua entrega não será compartilhada com ninguém fora do comitê de avaliação e após a nota ela será apagada, mantendo assim todo sigilo do participante.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-O que vamos avaliar é o raciocínio lógico para resolver os problemas, o conhecimento nos frameworks utilizados, os cuidados que teve e o tempo de entrega.
+## Learning Laravel
 
-Após a avaliação do comitê, os candidatos serão entrevistados sobre a solução e para avaliar a sua história, seus objetivos, seu estilo comportamental.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-##Objetivo do Teste
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-O objetivo é realizar um teste bem simples para entender o nível de conhecimento do candidato em PHP, framework Laravel, CSS, HTML, Javascript e Banco de dados.
+## Laravel Sponsors
 
-Serão observados o nível de conhecimento em cada uma dessas tecnologias e o uso das melhores práticas que elas dispõem atualmente.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-##Requisitos da Solução
+### Premium Partners
 
-Para o desenvolvimento é imprescindível que se utilize o Framework Laravel 8. (https://laravel.com/docs/8.x) . A aplicação já utiliza um framework de javascript e css, mas o candidato pode trocar a vontade, o banco pode ser qualquer um desde que suportado pelo Laravel.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-A solução deve ser entregue por meio do versionamento GIT no bitbucket, ao qual será necessário compartilhar o projeto com contato@einov.com.
+## Contributing
 
-##Descrição do Desafio
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-A E-inov está desenvolvendo uma aplicação para recrutamento e seleção. A ideia é manter um histórico de vagas e candidatos em uma aplicação simples e poder dessa forma gerenciar suas vagas.
+## Code of Conduct
 
-A aplicação já começou a ser desenvolvida e está presente neste versionamento, porém ela está incopleta.
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-Obs: Há um migrate e seed.
+## Security Vulnerabilities
 
-Dessa forma seu desafio será completar os seguintes requisitos:
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-- Na página inicial da aplicação, colocar uma mensagem de que não há vagas no momento, quando não encontrar nenhuma no banco de dados.
+## License
 
-- Quando alguém acessar uma url de vaga que não existe mais, deve voltar para a lista de vaga e exibir uma mensagem informando que a vaga não está mais disponível.
-
-- Salvar o formulário de se candidatar a uma vaga no banco de dados (tabela job_applies) e enviar um e-mail para o administrador da aplicação (usar o e-mail da variavel da aplicação MAIL_FROM_ADDRESS)
-
-- Colocar uma máscara em javascript R$ X.XXX,XX na pretenção salarial na candidatura da vaga.
-
-- Caso o mesmo candidato se candidate na mesma vaga, apague a antiga candidatura e mantenha apenas a nova.
-
-- Agradecer o candidato por meio de uma mensagem e que em breve iremos entrar em contato.
-
-##Sugestões e Ideias para o futuro
-
-Aqui na E-inov todo mundo participa da criação e roadmap dos produtos, tecnicamente ou dando ideias.
-
-Dessa forma, caso tenha é claro.
-
-- Você mudaria tecnicamente alguma coisa nessa aplicação?
-  Sim, a database esta dando erro de "Out of range value for a column" por conta do tamanho do float ser (8,2) recomendo colocar (16,2) exemplo:$table->float('salary_claim',16,2);
-assim posso colocar valores maiors que 8 digitos!
-
-- Na sua opinião qual seria a próxima melhoria para esta aplicação?
-  A questão do float ser (8,2) como expliquei na questão passada. 
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
